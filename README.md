@@ -1,3 +1,49 @@
+# 📄 AI Resume Analyzer
+
+A Streamlit app that analyzes resumes for skill coverage and role-fit — built for CS/Cybersecurity students targeting internships.
+
+> Built this because I was tired of generic resume feedback. This one actually tells you what's missing *for a specific role*, not just a checklist.
+
+---
+
+## What it does
+
+- Extracts text from your PDF resume
+- Detects 12+ technical skills (Python, DSA, Cybersecurity tools, Cloud, etc.)
+- Scores you against 5 common intern/fresher roles: SOC Analyst, VAPT, ML Engineer, Backend Dev, Full Stack
+- Basic resume sanity checks — email, GitHub, LinkedIn, projects section present?
+- Role-specific suggestions — not just "add more skills", but *which ones for what role*
+
+---
+
+## Screenshots
+
+![App Screenshot 1](https://private-user-images.githubusercontent.com/159471107/599416676-1bb46f5e-a5a0-46cf-b6eb-f8c4c8eaa253.png)
+![App Screenshot 2](https://private-user-images.githubusercontent.com/159471107/599416828-ba72328e-fac6-4bae-bc3e-1c7e37a695e1.png)
+
+---
+
+## Tech Stack
+
+- **Python 3.10+**
+- **Streamlit** — UI
+- **PyPDF2** — PDF text extraction
+- **Regex** — contact info detection
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/jhanvijyant/Ai-resume-analyser
+cd Ai-resume-analyser
+pip install -r requirements.txt
+streamlit run resume_analyzer.py
+```
+
+### requirements.txt
+
+
 No API keys. No account needed.
 
 ---
