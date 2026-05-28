@@ -37,22 +37,24 @@ A Streamlit app that analyzes resumes for skill coverage and role-fit — built 
 ## Getting Started
 
 ```bash
-git clone https://github.com/jhanvijyant/Ai-resume-analyser
+git clone app.py
 cd Ai-resume-analyser
 pip install -r requirements.txt
-streamlit run resume_analyzer.py
+streamlit run app.py
 ```
 
 ### requirements.txt
 
 
-No API keys. No account needed.
+streamlit
+PyPDF2
+
 
 ---
 
 ## How it works
 
-Reads your PDF, lowercases everything, checks for keywords per skill. For role matching, I manually mapped what each role needs based on reading 30+ internship JDs.
+Reads your PDF, lowercases everything, and checks for keywords per skill. For role matching, I manually mapped what each role needs based on reading 30+ internship JDs.
 
 Not perfect — keyword matching won't catch context. But as a quick self-check before applying, it works.
 
