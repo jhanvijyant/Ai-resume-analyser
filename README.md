@@ -18,8 +18,10 @@ A Streamlit app that analyzes resumes for skill coverage and role-fit — built 
 
 ## Screenshots
 
-![App Screenshot 1](https://private-user-images.githubusercontent.com/159471107/599416676-1bb46f5e-a5a0-46cf-b6eb-f8c4c8eaa253.png)
-![App Screenshot 2](https://private-user-images.githubusercontent.com/159471107/599416828-ba72328e-fac6-4bae-bc3e-1c7e37a695e1.png)
+![App Screenshot 1]<img width="1775" height="894" alt="Screenshot 2026-05-28 163746" src="https://github.com/user-attachments/assets/d09804cf-4353-4512-b474-c0f03ef2248f" />
+
+![App Screenshot 2]<img width="1787" height="910" alt="Screenshot 2026-05-28 163815" src="https://github.com/user-attachments/assets/1b3f4a22-3eb5-488d-8a13-dc8e66cd5738" />
+
 
 ---
 
